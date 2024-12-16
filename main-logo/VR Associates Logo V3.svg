@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1870" height="500" viewBox="0 0 1870 500">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.48" y1="0.5" x2="0.532" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbb040"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-VR_Associates_Logo_V3">
+      <rect width="1870" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="VR_Associates_Logo_V3" data-name="VR Associates Logo V3" clip-path="url(#clip-VR_Associates_Logo_V3)">
+    <rect width="1870" height="500" fill="#000041"/>
+    <g id="Group_10" data-name="Group 10">
+      <g id="Group_7" data-name="Group 7" transform="translate(-80 -323.585)">
+        <path id="Path_51" data-name="Path 51" d="M330,146.585l-150,87.5v175l150,87.5,150-87.5v-175Zm139.882,256.6L330,484.781l-139.883-81.6v-163.2L330,158.389l139.882,81.6Z" transform="translate(0 252)" fill="url(#linear-gradient)"/>
+        <path id="Path_52" data-name="Path 52" d="M530.4,256.5l-32.994-19.05L437.377,202.78l-32.994-19.051V481.614l32.994-19.051V351.719l60.034,34.668v41.5l32.994-19.05V367.355l-31.492-18.184H530.4Zm-93.028-15.618,60.034,34.669v40.616H437.377Z" transform="translate(-70.03 240.913)" fill="#fbb040"/>
+        <path id="Path_54" data-name="Path 54" d="M334,183.722v1.222l.046,296.4-64.3-38.763L207.976,256.5l32.994-19.051,42.311,135.9L301,427.1V202.779Z" transform="translate(-8.35 240.915)" fill="#fff"/>
+        <path id="Path_55" data-name="Path 55" d="M269.162,353.45l-48.177-28.443V210.881Z" transform="translate(-19.249 324.748)" fill="#fbb040"/>
+      </g>
+      <text id="Associates" transform="translate(453 355)" fill="#fbb040" font-size="280" font-family="PlayfairDisplay-Medium, Playfair Display" font-weight="500"><tspan x="0" y="0">Associates</tspan></text>
+    </g>
+  </g>
+</svg>

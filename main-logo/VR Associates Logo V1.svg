@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2331" height="600" viewBox="0 0 2331 600">
+  <defs>
+    <clipPath id="clip-VR_Associates_Logo_V1">
+      <rect width="2331" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="VR_Associates_Logo_V1" data-name="VR Associates Logo V1" clip-path="url(#clip-VR_Associates_Logo_V1)">
+    <rect width="2331" height="600" fill="#fff"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(-79 -269)">
+      <g id="Group_2" data-name="Group 2" transform="translate(-482.114 131.001)">
+        <path id="Path_24" data-name="Path 24" d="M477.9,62.044l15.146,47.174,37.668-47.174L547.69,40.783,576.807,4.317H459.365l11.708,36.466Z" transform="translate(366.338 305)" fill="#405ea7"/>
+        <path id="Path_25" data-name="Path 25" d="M889.634,62.636A89.217,89.217,0,0,0,832.759,8.33a87.9,87.9,0,0,0-26.2-3.972H634.285L605.83,41.172l-16.59,21.464-51.084,66.088-27.547,35.64-14.293,18.492-1.68,2.174-10.943,14.157-4.8-14.157-.737-2.174-12.683-37.373-5.686-16.758L437.353,62.636l-7.282-21.464L417.578,4.358,416.1,0H295.114l2.442,4.359,20.625,36.814h62.811l7.284,21.464L410.7,128.724l18.37,54.131.737,2.174,1.3,3.824,18.48,54.456,2.043,6.023a22.9,22.9,0,0,0,39.876,6.74l7.985-10.331,26.23-33.935,20.7-26.777,1.68-2.174,41.842-54.131,51.082-66.088H782.71v-20.7L796.84,54.8l8.612,7.838,34.031,30.972-34.335,35.117-27.524,28.153V128.724H668.882l-41.84,54.131-1.68,2.174L563.549,265h70.815l61.813-79.97h72.779l98.493,67.005L825.46,185.029l-2.342-3.737A89.548,89.548,0,0,0,889.634,62.636" transform="translate(366 305)" fill="#405ea7"/>
+      </g>
+      <text id="Associates" transform="translate(829 677)" fill="#504f4f" font-size="300" font-family="Omnium-SemiBold, Omnium" font-weight="600"><tspan x="0" y="0">Associates</tspan></text>
+    </g>
+  </g>
+</svg>

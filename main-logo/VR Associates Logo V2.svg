@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="1450" viewBox="0 0 2100 1450">
+  <defs>
+    <clipPath id="clip-VR_Associates_Logo_V2">
+      <rect width="2100" height="1450"/>
+    </clipPath>
+  </defs>
+  <g id="VR_Associates_Logo_V2" data-name="VR Associates Logo V2" clip-path="url(#clip-VR_Associates_Logo_V2)">
+    <rect width="2100" height="1450" fill="#fff"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(-116 -76)">
+      <g id="Group_4" data-name="Group 4" transform="translate(0.097 -34)">
+        <path id="Path_47" data-name="Path 47" d="M1307.6,288.746q-7.7-.021-15.493-.046l-26.356,63.682,15.514-.009Z" transform="translate(-99.613 171.4)" fill="#29abe2"/>
+        <path id="Path_48" data-name="Path 48" d="M1228.169,352.373l15.512-.006,26.379-63.732q-7.779-.025-15.493-.046Z" transform="translate(-91.465 171.424)" fill="gray"/>
+        <path id="Path_49" data-name="Path 49" d="M1197.917,649.654h68.017V529.077h65.437l105.121,120.577h80.892v-4.64L1408.151,521.863c68.533-13.913,91.2-63.892,91.2-113.359,0-62.348-44.827-119.03-129.847-119.547-9.6,0-30.073-.016-47.069-.038l.027-.064c-5.079-.013-10.257-.027-15.492-.043l-.031.081-.579,0-26.274,63.486h.575l-.006.014,15.516-.007,0-.013,73.329-.032c42.77,0,61.834,28.856,61.834,57.711s-18.548,57.709-61.834,57.709l-171.588-.1Z" transform="translate(-85.321 171.061)" fill="gray"/>
+        <path id="Path_50" data-name="Path 50" d="M1153.245,0C1024.139,0,908.8,60,833.588,153.56q-7.231,9-13.969,18.391a410,410,0,0,0-43.536,77.316l37.24,90.833,13.392,32.666,88.2,215.125h70.451L1135.5,226.011c-.1,0-.2,0-.3,0-28.974-.084-56.007-.146-76.292-.146l-.219,1.065L949.88,506.642,857.644,269.652,848.052,245q5.982-11.02,12.746-21.535c61.71-96.412,169.729-160.464,292.448-160.464,191.335,0,347,155.662,347,347s-155.673,349.21-347,347c-210.318-2.432-330.352-160.892-369.176-275.371C745.424,367.675,765.763,276,765.763,276a408.14,408.14,0,0,0-22.518,134c0,226.077,183.925,410,410,410s410-183.925,410-410S1379.32,0,1153.245,0" transform="translate(13.658 233.999)" fill="#29abe2"/>
+      </g>
+      <text id="Associates" transform="translate(1166 1349)" fill="#29abe2" font-size="300" font-family="Rajdhani-SemiBold, Rajdhani" font-weight="600" letter-spacing="0.1em"><tspan x="-884.85" y="0">ASSOCIATES</tspan></text>
+    </g>
+  </g>
+</svg>
