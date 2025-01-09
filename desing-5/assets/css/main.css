@@ -16477,6 +16477,25 @@ body.body {
   background-color: #141339;
   color: #fff;
 }
+.icons .social-icon li{
+  display: inline-block;
+}
+.icons .social-icon li a{
+  display: inline-block;
+  margin: 0px 4px;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  border-radius: 36px;
+  background-color: rgba(20, 19, 57, 0.0470588235);
+  text-align: center;
+  color: #001431;
+  transition: all 0.4s;
+}
+.icons .social-icon li a:hover{
+  background-color: #141339;
+  color: #fff;
+}
 .footer8 .single-footer-items .contact-box {
   display: flex;
   align-items: start;
