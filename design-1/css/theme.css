@@ -2231,8 +2231,11 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		margin-top: 0;
 	}
 
-	#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+	/* #header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
 		color: #444;
+	} */
+	#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+		color: #4B4A3C
 	}
 
 	#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
@@ -4984,6 +4987,7 @@ html[dir="rtl"] #header .tip-light:before {
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
 		color: var(--primary);
 	}
+	
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
 		background: var(--primary) !important;
@@ -12795,7 +12799,8 @@ html body .rounded-circle {
 
 /* #Footer */
 #footer {
-	background: var(--dark);
+	/* background: var(--dark); */
+	background: #4B4A3C !important;
 	border-top: 4px solid var(--dark);
 	font-size: 0.9em;
 	margin-top: 50px;
@@ -12839,7 +12844,8 @@ html body .rounded-circle {
 
 #footer a:not(.btn):not(.no-footer-css):hover {
 	text-decoration: none;
-	color: var(--light);
+	/* color: var(--light); */
+	color: var(--grey-500);
 }
 
 #footer a:not(.btn):not(.no-footer-css):focus, #footer a:not(.btn):not(.no-footer-css):active {
