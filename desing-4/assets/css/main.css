@@ -1,68 +1,3 @@
-/*
-============================
-Name:  Recrute - Staffing Agency HTML Template
-Version: 2.0.1
-Description:
-Author:  VikingLab
-Author URI: https://themeforest.net/user/vikinglab/portfolio
-Location:
-============================
-*/
-/*
-
-CSS LIST
-
-=<::::::::::::::::::::::::::=>
-  HEADER AREA CSS
-=<::::::::::::::::::::::::::=>
-  NAV MENU AREA CSS
-=<::::::::::::::::::::::::::=>
-  WELCOME AREA CSS
-=<::::::::::::::::::::::::::=>
-  ABOUT AREA CSS
-=<::::::::::::::::::::::::::=>
-  SERVICE AREA CSS
-=<::::::::::::::::::::::::::=>
-  ACCOUNT AREA CSS
-=<::::::::::::::::::::::::::=>
-  FEATURES AREA CSS
-=<::::::::::::::::::::::::::=>
-  BRAND AREA CSS
-=<::::::::::::::::::::::::::=>
-  CHOOSE AREA CSS
-=<::::::::::::::::::::::::::=>
-  PRRELOADER AREA CSS
-=<::::::::::::::::::::::::::=>
-  PRICING AREA CSS
-=<::::::::::::::::::::::::::=>
-  TEAM AREA CSS
-=<::::::::::::::::::::::::::=>
-  TESTIMONIAL AREA CSS
-=<::::::::::::::::::::::::::=>
-  WORK AREA CSS
-=<::::::::::::::::::::::::::=>
-  OTHERS AREA CSS
-=<::::::::::::::::::::::::::=>
-  CONMMON AREA CSS
-=<::::::::::::::::::::::::::=>
-  BLOG AREA CSS
-=<::::::::::::::::::::::::::=>
-  CTA AREA CSS
-=<::::::::::::::::::::::::::=>
- ANIMATION AREA CSS
-=<::::::::::::::::::::::::::=>
-  BUTTONS AREA CSS
-=<::::::::::::::::::::::::::=>
-  TYPOGRAPHY AREA CSS
-=<::::::::::::::::::::::::::=>
-  FOOTER AREA CSS
-=<::::::::::::::::::::::::::=>
-*/
-/*
-::::::::::::::::::::::::::
- TYPOGRAPHY AREA CSS
-::::::::::::::::::::::::::
-*/
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap");
 /*
  ::::::::::::::::::::::::::
@@ -1623,7 +1558,7 @@ body.body {
   --vtc-text-pera-text-3: #5A5F6A;
   --vtc-text-text-white-text-1: #ffffff;
   --vtc-bg-main-bg-1: #FF7A01;
-  --vtc-bg-main-bg-2: #FC253F;
+  --vtc-bg-main-bg-2:#F8C301;
   --vtc-bg-main-bg-3: #FD965B;
   --vtc-bg-main-bg-4: #23342E;
   --vtc-bg-main-bg-5: #19326A;
@@ -1735,12 +1670,12 @@ body.body {
 
 .heading1 span.span {
   display: inline-block;
-  color: var(--vtc-text-heading-text-1);
+  color: var(--vtc-text-text-white-text-1);
   font-size: var(--f-fs-font-fs16);
   line-height: var(--f-fs-font-fs16);
   font-weight: var(--f-fw-medium);
   border-radius: 4px;
-  background-color: rgba(255, 124, 1, 0.1568627451);
+  background-color: var(--vtc-bg-common-bg3);;
   padding: 8px 12px;
   margin-bottom: 16px;
 }
@@ -1856,7 +1791,7 @@ body.body {
 }
 .heading2 p {
   color: var(--vtc-text-pera-text-2);
-  font-size: var(--f-fs-font-fs18);
+  /* font-size: var(--f-fs-font-fs18); */
   line-height: var(--f-fs-font-fs28);
   font-weight: var(--f-fw-medium);
   transition: all 0.4s;
@@ -2986,7 +2921,8 @@ body.body {
   right: -1px;
   height: 100%;
   width: 102%;
-  background-color: #cb3d4e;
+  /* background-color: #cb3d4e; */
+  background-color: #007cc2;
   transform: rotateY(95deg);
   transition: all 0.6s linear;
   z-index: -1;
@@ -4843,6 +4779,9 @@ body.body {
   transform: translateY(-10px);
   transition: all 0.4s;
 }
+.service2-box:hover p{
+  color: #fff;
+}
 .service2-box:hover::after {
   transform: rotateY(0deg);
   transition: all 0.4s linear;
@@ -4859,8 +4798,10 @@ body.body {
   filter: none;
 }
 .service2-box:hover .learn {
-  color: var(--vtc-bg-main-bg-2);
-  background-color: var(--vtc-text-text-white-text-1);
+  /* color: var(--vtc-bg-main-bg-2); */
+  color: var(--vtc-text-text-white-text-1);
+  /* background-color: var(--vtc-text-text-white-text-1); */
+  background-color: #007CC1;
   transition: all 0.4s;
 }
 
@@ -8459,8 +8400,9 @@ body.body {
   padding: 8px 12px;
   margin-bottom: 16px;
 }
-.hero-area2 .main-heading h1 {
-  font-size: var(--f-fs-font-fs64);
+.hero-area2 .main-heading h3 {
+  /* font-size: var(--f-fs-font-fs64); */
+  font-size: var(--f-fs-font-fs50);
   line-height: var(--f-fs-font-fs70);
   color: var(--vtc-text-text-white-text-1);
   font-weight: var(--f-fw-bold);
@@ -16833,7 +16775,7 @@ body.body {
 .header-area {
   padding: 12px 0;
   position: absolute;
-  background: transparent;
+  background:#fff;
   width: 100%;
   z-index: 99;
 }
@@ -17251,7 +17193,8 @@ li.has-dropdown1 span {
   animation-name: fade-in-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  background-color: #000029;
+  /* background-color: #000029; */
+  background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.068) 0px 20px 30px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
@@ -18153,7 +18096,8 @@ li.has-dropdown1 span {
   opacity: 1;
 }
 .header-area.header-area2 .header-elements .main-menu-ex ul li a {
-  color: #fff;
+  /* color: #fff; */
+  color: #007CC2;
   font-size: 16px;
   display: block;
   font-weight: 400;
@@ -20926,6 +20870,34 @@ li.has-dropdown1 span {
   font-size: var(--f-fs-font-fs16);
   font-weight: var(--f-fw-blod);
   line-height: var(--f-fs-font-fs16);
+}
+.contact-page .shape-left{
+  top:550px;
+  left: 0px;
+}
+.contact-page-footer .footer2{
+  padding-top: 100px;
+}
+.contact-page .contact-page-box .contact-box h4 a:hover{
+  color: #F8C301 !important;
+}
+.heading2 .contact-box .pera a{
+  color: #F8C301;
+}
+.heading2 .contact-box .icon{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  /* background-color: rgba(255, 255, 255, 0.199); */
+  background-color: #F8C301;
+  border-radius: 50%;
+  transition: all 0.4s;
+  margin-bottom: 5px;
+}
+.heading2 .contact-box .icon i{
+  font-size: 20px;
+  color: #fff;
 }
 
 /*

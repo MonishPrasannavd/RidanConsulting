@@ -62,7 +62,7 @@ Desc:
 
     .mobile-header.mobile-header-main {
         position: fixed;
-        top: 0;
+        top: -15px;
         left: 0;
         width: 100%;
         padding: 17px 0;
@@ -86,6 +86,7 @@ Desc:
         justify-content: center;
         border-radius: 4px;
         color: #000;
+        margin-top: 5px;
     }
     
     .mobile-nav-icon {
@@ -98,6 +99,7 @@ Desc:
         justify-content: center;
         border-radius: 4px;
         color: #000000;
+        margin-top: 10px;
     }
     
     .mobile-sidebar {
@@ -265,7 +267,9 @@ Desc:
         text-align: center;
         margin-bottom: 20px;
     }
-
+    .hero-area2 .main-heading h3{
+        font-size: 50px !important;
+    } 
 }
 
 .mobile-menu-a a {
