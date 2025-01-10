@@ -1,68 +1,4 @@
-/*
-============================
-Name:  Recrute - Staffing Agency HTML Template
-Version: 2.0.1
-Description:
-Author:  VikingLab
-Author URI: https://themeforest.net/user/vikinglab/portfolio
-Location:
-============================
-*/
-/*
 
-CSS LIST
-
-=<::::::::::::::::::::::::::=>
-  HEADER AREA CSS
-=<::::::::::::::::::::::::::=>
-  NAV MENU AREA CSS
-=<::::::::::::::::::::::::::=>
-  WELCOME AREA CSS
-=<::::::::::::::::::::::::::=>
-  ABOUT AREA CSS
-=<::::::::::::::::::::::::::=>
-  SERVICE AREA CSS
-=<::::::::::::::::::::::::::=>
-  ACCOUNT AREA CSS
-=<::::::::::::::::::::::::::=>
-  FEATURES AREA CSS
-=<::::::::::::::::::::::::::=>
-  BRAND AREA CSS
-=<::::::::::::::::::::::::::=>
-  CHOOSE AREA CSS
-=<::::::::::::::::::::::::::=>
-  PRRELOADER AREA CSS
-=<::::::::::::::::::::::::::=>
-  PRICING AREA CSS
-=<::::::::::::::::::::::::::=>
-  TEAM AREA CSS
-=<::::::::::::::::::::::::::=>
-  TESTIMONIAL AREA CSS
-=<::::::::::::::::::::::::::=>
-  WORK AREA CSS
-=<::::::::::::::::::::::::::=>
-  OTHERS AREA CSS
-=<::::::::::::::::::::::::::=>
-  CONMMON AREA CSS
-=<::::::::::::::::::::::::::=>
-  BLOG AREA CSS
-=<::::::::::::::::::::::::::=>
-  CTA AREA CSS
-=<::::::::::::::::::::::::::=>
- ANIMATION AREA CSS
-=<::::::::::::::::::::::::::=>
-  BUTTONS AREA CSS
-=<::::::::::::::::::::::::::=>
-  TYPOGRAPHY AREA CSS
-=<::::::::::::::::::::::::::=>
-  FOOTER AREA CSS
-=<::::::::::::::::::::::::::=>
-*/
-/*
-::::::::::::::::::::::::::
- TYPOGRAPHY AREA CSS
-::::::::::::::::::::::::::
-*/
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap");
 /*
  ::::::::::::::::::::::::::
@@ -1622,9 +1558,9 @@ body.body {
   --vtc-text-pera-text-2: #CCCCD5;
   --vtc-text-pera-text-3: #5A5F6A;
   --vtc-text-text-white-text-1: #ffffff;
-  --vtc-bg-main-bg-1: #FF7A01;
+  --vtc-bg-main-bg-1: #F8C301;
   --vtc-bg-main-bg-2: #FC253F;
-  --vtc-bg-main-bg-3: #FD965B;
+  --vtc-bg-main-bg-3: #F8C301;
   --vtc-bg-main-bg-4: #23342E;
   --vtc-bg-main-bg-5: #19326A;
   --vtc-bg-main-bg-6: #52B5E9;
@@ -3535,15 +3471,15 @@ body.body {
 
 .theme-btn14 {
   color: #081120;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px; /* 100% */
   text-transform: uppercase;
   display: inline-block;
-  background-color: #F6AA32;
+  background-color: #F8C301;
   border-radius: 8px;
-  padding: 19px 22px;
+  padding: 12px 35px;
   transition: all 0.4s;
   border: none;
 }
@@ -4052,6 +3988,7 @@ body.body {
   padding: 24px;
   margin-top: 34px;
   transition: all 0.4s;
+  border: 1px solid #ddd;
 }
 .mission .mission-box .icon {
   height: 60px;
@@ -4063,10 +4000,19 @@ body.body {
   margin-bottom: 20px;
   transition: all 0.4s;
 }
+.mission .mission-box img{
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.mission .mission-box p{
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6;
+}
 .mission .mission-box:hover {
   transition: all 0.4s;
   transform: translateY(-10px);
-  background-color: var(--vtc-bg-main-bg-1);
+  background-color: #037CC2;
 }
 .mission .mission-box:hover .icon {
   background-color: #fff;
@@ -5566,7 +5512,7 @@ body.body {
 }
 .service8 .service-box .heading h4 a:hover {
   transition: all 0.4s;
-  color: #F6AA32;
+  color: #F8C301;
 }
 .service8 .service-box .heading p {
   color: #555;
@@ -5588,7 +5534,7 @@ body.body {
 }
 .service8 .service-box .heading .learn:hover {
   transition: all 0.4s;
-  color: #F6AA32;
+  color: #F8C301;
 }
 .service8 .service-box:hover {
   background-color: #081120;
@@ -6734,7 +6680,7 @@ body.body {
 }
 .others8 .others-boxs .heading8 h4 a:hover {
   transition: all 0.4s;
-  color: #F6AA32;
+  color: #F8C301;
 }
 .others8 .others-boxs .heading8 p {
   padding-top: 14px;
@@ -8674,7 +8620,7 @@ body.body {
   display: block;
   width: 60px;
   height: 60px;
-  background: #FD965B;
+  background: #F8C301;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -8689,7 +8635,7 @@ body.body {
   display: block;
   width: 60px;
   height: 60px;
-  background: #FD965B;
+  background: #F8C301;
   border-radius: 50%;
   transition: all 200ms;
 }
@@ -9907,7 +9853,7 @@ body.body {
 
 .loading {
   border: 1px solid transparent;
-  border-color: transparent #FF7A01 transparent #FF7A01;
+  border-color: transparent #F8C301 transparent #F8C301;
   animation: rotate-loading 1.5s linear 0s infinite normal;
   transform-origin: 50% 50%;
 }
@@ -11007,7 +10953,7 @@ body.body {
 }
 .team8 .team-box .heading-area h4 a:hover {
   transition: all 0.4s;
-  color: #F6AA32;
+  color: #F8C301;
 }
 .team8 .team-box .heading-area p {
   color: var(--Home-Page-3-paragraph, #5B5855);
@@ -11023,7 +10969,7 @@ body.body {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background-color: #F6AA32;
+  background-color: #F8C301;
 }
 .team8 .team-box:hover {
   transform: translateY(-10px);
@@ -12389,7 +12335,7 @@ body.body {
   margin-right: 10px;
 }
 .case8 .project-two .owl-nav button:hover {
-  background-color: #F6AA32;
+  background-color: #F8C301;
   transition: all 0.4s;
 }
 .case8 .project-two__top {
@@ -12484,7 +12430,7 @@ body.body {
   }
 }
 .case8 .project-two__box-content-inner .icon a {
-  background: #F6AA32 !important;
+  background: #F8C301 !important;
   color: #000 !important;
 }
 .case8 .project-two__box-content:hover .project-two__box-content-inner {
@@ -13035,7 +12981,7 @@ body.body {
   transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .single-slider .bottom-area .heading h5 a:hover {
-  color: #F6AA32;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .single-slider .bottom-area .heading span {
@@ -13060,7 +13006,7 @@ body.body {
   transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .arrows-button button:hover {
-  background-color: #F6AA32;
+  background-color: #F8C301;
   transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .arrows-button .tes8-next-arrow {
@@ -15011,7 +14957,7 @@ body.body {
   display: block;
   width: 60px;
   height: 60px;
-  background: #FF7A01;
+  background: #F8C301;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -15025,7 +14971,7 @@ body.body {
   display: block;
   width: 60px;
   height: 60px;
-  background: #FF7A01;
+  background: #F8C301;
   border-radius: 50%;
   transition: all 200ms;
 }
@@ -16442,14 +16388,14 @@ body.body {
   left: 0;
   height: 20px;
   width: 0px;
-  background-color: #F6AA32;
+  background-color: #F8C301;
   opacity: 0;
   transition: all 0.4s;
 }
 .footer8 .single-footer-items ul.menu-list li a:hover {
   padding-left: 12px;
   transition: all 0.4s;
-  color: #F6AA32;
+  color: #F8C301;
 }
 .footer8 .single-footer-items ul.menu-list li a:hover::after {
   width: 3px;
@@ -16511,7 +16457,7 @@ body.body {
   transition: all 0.4s;
 }
 .footer8 .single-footer-items .contact-box:hover .pera a {
-  color: #F6AA32;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .footer8 .coppyright p {
@@ -16828,7 +16774,7 @@ body.body {
 }
 
 .header-area.header-area8 .header-elements .main-menu-ex ul li a.active {
-  color: #F6AA32;
+  color: #F8C301;
 }
 
 .header-area.header-area9 .header-elements .main-menu-ex ul li a.active {
@@ -17017,7 +16963,7 @@ body.body {
   margin-top: 8px;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-  color: #FF7A01;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {
@@ -17119,7 +17065,7 @@ body.body {
   line-height: 16px; /* 100% */
   text-transform: capitalize;
   z-index: 1;
-  background: #FF7A01;
+  background: #F8C301;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1 i {
   transform: rotate(-45deg);
@@ -17130,7 +17076,7 @@ body.body {
   color: #fff;
   transition: all 0.4s;
   transform: translateY(-5px);
-  background: #FF7A01;
+  background: #F8C301;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1:hover i {
   transform: rotate(0);
@@ -17662,7 +17608,7 @@ li.has-dropdown1 span {
   margin-top: 8px;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-  color: #FD965B;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {
@@ -17764,7 +17710,7 @@ li.has-dropdown1 span {
   line-height: 16px; /* 100% */
   text-transform: capitalize;
   z-index: 1;
-  background: #FD965B;
+  background: #F8C301;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1 i {
   transform: rotate(-45deg);
@@ -17775,7 +17721,7 @@ li.has-dropdown1 span {
   color: #fff;
   transition: all 0.4s;
   transform: translateY(-5px);
-  background: #FD965B;
+  background: #F8C301;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1:hover i {
   transform: rotate(0);
@@ -17998,7 +17944,7 @@ li.has-dropdown1 span {
   margin-top: 8px;
 }
 .header-area.header-area2 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-  color: #FD965B;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .header-area.header-area2 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {
@@ -19822,7 +19768,7 @@ li.has-dropdown1 span {
   line-height: 16px; /* 100% */
   text-transform: capitalize;
   z-index: 1;
-  background: #F6AA32;
+  background: #F8C301;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1 i {
   transform: rotate(-45deg);
@@ -19833,7 +19779,7 @@ li.has-dropdown1 span {
   color: #081120;
   transition: all 0.4s;
   transform: translateY(-5px);
-  background: #F6AA32;
+  background: #F8C301;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1:hover i {
   transform: rotate(0);
@@ -19883,11 +19829,11 @@ li.has-dropdown1 span {
   opacity: 1;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li ul li a:hover {
-  color: #F6AA32;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li ul li a:hover::after {
-  background-color: #F6AA32;
+  background-color: #F8C301;
   border-radius: 4px;
   width: 5px;
   left: -10px;
@@ -19902,7 +19848,7 @@ li.has-dropdown1 span {
   transition: all 0.3s;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li a:hover {
-  color: #F6AA32;
+  color: #F8C301;
   transition: all 0.4s;
 }
 .header-area.header-area8 .header-elements .main-menu-ex ul li:hover .tp-submenu {
@@ -20726,18 +20672,18 @@ li.has-dropdown1 span {
 }
 
 .header-area.header-area8 .main-menu-ex.main-menu-ex1 li.has-dropdown:hover a.main1 {
-  color: #F6AA32;
+  color: #F8C301;
 }
 
 .header-area.header-area8 .main-menu-ex.main-menu-ex1 li.dropdown-menu-parrent:hover a.main1 {
-  color: #F6AA32;
+  color: #F8C301;
 }
 
 .header-area.header-area8 .main-menu-ex.main-menu-ex1 li.has-dropdown.has-dropdown1:hover a.main {
-  color: #F6AA32;
+  color: #F8C301;
 }
 .header-area.header-area8 .main-menu-ex.main-menu-ex1 li.has-dropdown.has-dropdown1:hover a.main::after {
-  background-color: #F6AA32;
+  background-color: #F8C301;
   border-radius: 4px;
   width: 5px;
   left: -10px;
