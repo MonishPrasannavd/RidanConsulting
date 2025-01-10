@@ -1682,8 +1682,8 @@ body.body {
 }
 .heading1 h5 a {
   display: inline-block;
-  font-size: var(--f-fs-font-fs20);
-  line-height: var(--f-fs-font-fs20);
+  font-size: var(--f-fs-font-fs19);
+  line-height: var(--f-fs-font-fs29);
   color: var(--vtc-text-heading-text-1);
   font-weight: var(--f-fw-bold);
   transition: all 0.4s;
@@ -3989,6 +3989,7 @@ body.body {
   margin-top: 34px;
   transition: all 0.4s;
   border: 1px solid #ddd;
+  height: 430px;
 }
 .mission .mission-box .icon {
   height: 60px;
@@ -4005,7 +4006,7 @@ body.body {
   margin-bottom: 15px;
 }
 .mission .mission-box p{
-  font-size: 16px;
+  font-size: 15px;
   color: #000;
   line-height: 1.6;
 }
@@ -4025,6 +4026,9 @@ body.body {
 .mission .mission-box:hover .heading1 p {
   color: rgba(255, 255, 255, 0.8352941176);
   transition: all 0.4s;
+}
+.mission .mission-box:hover .learn{
+  color: #F8C301 !important;
 }
 
 .team1.about-page-team {
@@ -4223,7 +4227,9 @@ body.body {
 }
 @media (max-width: 767px) {
   .about8 .about8-images .cs_case_study_1_list {
-    flex-direction: column;
+    /* flex-direction: column; */
+    margin-top: 30px;
+    margin-right: 20px;
   }
 }
 .about8 .about8-images .cs_case_study_1_list > .cs_case_study.cs_style_1 {
@@ -8044,6 +8050,13 @@ body.body {
   transition: all 0.4s;
   margin-bottom: 20px;
 }
+.contact8 .contact9-content-area .contact9-box .icon i{
+  color: #fff;
+  font-size: 30px;
+}
+.contact8 .contact9-content-area .contact9-box:hover i{
+  color: #141339;
+}
 .contact8 .contact9-content-area .contact9-box .heading {
   padding-left: 20px;
 }
@@ -9386,10 +9399,10 @@ body.body {
 }
 .hero8 .main-heading h1 {
   color: #FFF;
-  font-size: 56px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px; /* 114.286% */
+  line-height: 50px; /* 114.286% */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero8 .main-heading h1 {
@@ -9418,7 +9431,7 @@ body.body {
 .hero8 .image1 {
   position: absolute;
   bottom: 0;
-  left: 80px;
+  left: 50px;
   z-index: 1;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -9434,7 +9447,7 @@ body.body {
 .hero8 .image2 {
   position: absolute;
   top: 0;
-  right: 80px;
+  right: 50px;
   z-index: 1;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16804,7 +16817,7 @@ body.body {
 }
 
 .site-logo {
-  max-width: 130px;
+  max-width: 95px;
   height: auto;
   display: flex;
   align-items: center;
@@ -20892,7 +20905,15 @@ li.has-dropdown1 span {
   font-weight: var(--f-fw-blod);
   line-height: var(--f-fs-font-fs16);
 }
-
+.contact-us .hero8{
+  min-height: 450px;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 /*
 ::::::::::::::::::::::::::
  NAV MENU AREA CSS

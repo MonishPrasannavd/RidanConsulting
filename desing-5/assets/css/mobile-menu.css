@@ -86,9 +86,10 @@ Desc:
         justify-content: center;
         border-radius: 4px;
         color: #000;
+        margin-top: 10px;
     }
     
-    .mobile-nav-icon {
+    /* .mobile-nav-icon {
         font-size: 23px;
         border: 1px solid;
         width: 40px;
@@ -98,7 +99,7 @@ Desc:
         justify-content: center;
         border-radius: 4px;
         color: #000000;
-    }
+    } */
     
     .mobile-sidebar {
         position: fixed;
@@ -265,6 +266,26 @@ Desc:
         text-align: center;
         margin-bottom: 20px;
     }
+    .mission .mission-box {
+        height: 470px !important;
+      }
+      .contact8 .contact9-content-area .contact9-box{
+        margin-left: 0px !important;
+      }
+      .contact8 .contact9-content-area .contact9-box .icon{
+        height:50px !important;
+        width: 50px !important;
+        line-height: 50px !important;
+      }
+      .contact8 .contact9-content-area .contact9-box .icon img{
+        width: 30px !important;
+      }
+      .contact8 .contact9-content-area .contact9-box .icon.location{
+        height:50px !important;
+        width: 80px !important;
+        line-height: 55px !important;
+      }
+      
 
 }
 
