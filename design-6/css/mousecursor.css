@@ -1,4 +1,4 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
 .cb-cursor {
 	position: fixed;
 	top: 0;
@@ -26,7 +26,8 @@
 	-ms-transform: scale(0);
 	-o-transform: scale(0);
 	transform: scale(0);
-	background: #D8E28C;
+	/* background: #D8E28C; */
+	background: #F8C301;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;

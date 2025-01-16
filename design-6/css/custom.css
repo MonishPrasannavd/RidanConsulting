@@ -1,58 +1,6 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Leadz - Business & Finance HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
-/* INDEX
-----------------------------------------------------------------------------------------
-01. Global Variables
-02. General css
-03. Header css
-04. Hero css
-05. Scrolling Ticker css
-06. About Us css
-07. Our Services css
-08. Our Expertise css
-09. Why Choose Us css
-10. Our Approach css
-11. Company Wisdom css
-12. Our Features css
-13. Our Prcing css
-14. CTA Box css
-15. Our Testimonial css
-16. Our FAQs css
-17. Latest Posts css
-18. Our Footer css
-19. About Us Page css
-20. Services Page css
-21. Service Single css
-22. Blog Archive css
-23. Blog Single css
-24. Project Page css
-25. Project Single css
-26. Case Study Page css
-27. Case Study Single css
-28. Team Page css
-29. Team Single css
-30. Company History Page css
-31. Pricing Page css
-32. Client Page css
-33. Testimonial Page css
-34. Image Gallery css
-35. Video Gallery css
-36. FAQs Page css
-37. Contact Us css
-38. 404 Page css
-39. Responsive css
--------------------------------------------------------------------------------------- */
-
-/************************************/
-/*** 	 01. Global Variables	  ***/
-/************************************/	
 
 :root{
-	--primary-color			: #14202E;
+	--primary-color			: #0579BB;
 	--secondary-color		: #FAFAFA;
 	--text-color			: #828282;
 	--accent-color			: #D8E28C;
@@ -63,11 +11,11 @@
 	--error-color			: rgb(230, 87, 87);
 	--default-font			: "Inter", sans-serif;
 	--accent-font			: "Onest", sans-serif;
+	--main-color1           : #F8C301;
+	--main-color2           : #4D473A;
 }
 
-/************************************/
-/*** 	   02. General css		  ***/
-/************************************/
+
 
 body{
 	font-family: var(--default-font);
@@ -208,8 +156,8 @@ body{
 	font-weight: 500;
 	line-height: 1.1em;
 	text-transform: capitalize;
-	background: var(--accent-color);
-	color: var(--primary-color);
+	background: var(--main-color1);
+	color: var(--main-color2);
 	border-radius: 100px;
 	padding: 16px 55px 16px 25px;
 	border: none;
@@ -219,7 +167,7 @@ body{
 }
 
 .btn-default:hover{
-	background-color: transparent;
+	background-color: var(--primary-color);
 	color: var(--white-color);
 }
 
@@ -274,6 +222,15 @@ body{
 	left: 0;
 	transform: translate(25px, -50%);
 	background: url('../images/icon-contact-btn.svg');
+	background-repeat: no-repeat;
+    background-position: center center;
+	background-size: 16px auto;
+}
+.btn-default.email-btn::before{
+	right: auto;
+	left: 0;
+	transform: translate(25px, -50%);
+	background: url('../images/icon-email.svg');
 	background-repeat: no-repeat;
     background-position: center center;
 	background-size: 16px auto;
@@ -355,7 +312,7 @@ body{
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
-	background-color: var(--dark-color);
+	background-color: var(--main-color2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -597,7 +554,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus{
-	color: var(--accent-color);
+	color: var(--main-color1);
 }
 
 .main-menu ul ul{
@@ -613,7 +570,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background-color: var(--accent-color);
+	background-color: var(--main-color1);
 	transition: all 0.3s ease-in-out;
 	text-align: left;
 }
@@ -645,7 +602,7 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul ul li a{
-	color: var(--primary-color);
+	color: var(--main-color2);
 	padding: 8px 20px !important;
 	transition: all 0.3s ease-in-out;
 }
@@ -803,7 +760,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero{
-	background: radial-gradient(45.15% 42.05% at 49.04% 57.08%, rgba(17, 74, 67, 0) 0.01%, #114A43 100%), url('../images/section-bg.svg');
+	background: radial-gradient(45.15% 42.05% at 49.04% 57.08%, rgba(17, 74, 67, 0) 0.01%, var(--main-color2) 100%), url('../images/section-bg.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1042,7 +999,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-scrolling-ticker{
-	background-color: var(--accent-color);
+	background-color: var(--primary-color);
 	padding: 30px 0;
 }
 
@@ -1069,7 +1026,7 @@ header.main-header .header-sticky.active{
 	font-family: var(--accent-font);
 	font-size: 22px;
 	font-weight: 600;
-	color: var(--primary-color);
+	color: var(--white-color);
 	vertical-align: middle;
 }
 
@@ -1105,7 +1062,7 @@ header.main-header .header-sticky.active{
 
 .about-company-item .icon-box{
 	position: relative;
-	background-color: var(--accent-color);
+	background-color: var(--main-color1);
 	width: 60px;
 	height: 60px;
 	border-radius: 16px;
@@ -1227,8 +1184,8 @@ header.main-header .header-sticky.active{
 	padding: 50px 0 70px;
 }
 
-.our-services .col-lg-4:nth-child(even) .service-box{
-	background: var(--dark-color);
+.our-services .col-lg-5 .service-box{
+	background: var(--main-color2);
 }
 
 .service-box{
@@ -1249,20 +1206,23 @@ header.main-header .header-sticky.active{
 
 .service-box-tag a{
 	display: inline-block;
-	background-color: var(--accent-color);
-	color: var(--primary-color);
+	background-color: var(--main-color1);
+	color: var(--main-color2);
 	border-radius: 50px;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 600;
 	line-height: 1.2em;
 	text-transform: capitalize;
 	padding: 10px 20px;
 }
 
-.service-box-title h3{
-	font-size: 20px;
+.service-box-title p{
+	font-size: 14px;
+	color: var(--white-color);
+	padding-bottom: 40px;
 }
 
-.our-services .col-lg-4:nth-child(even) .service-box .service-box-title h3{
+.our-services .col-lg-5.service-box .service-box-title h3{
 	color: var(--white-color);
 }
 
@@ -1302,9 +1262,10 @@ header.main-header .header-sticky.active{
 
 .our-tab-nav ul li .nav-link{
 	width: 100%;
-	background-color: var(--white-color);
+	background-color: var(--primary-color);
 	border: none;
 	border-radius: 100px;
+	color: var(--white-color);
 }
 
 .our-tab-nav ul li .nav-link:hover{
@@ -1312,19 +1273,19 @@ header.main-header .header-sticky.active{
 }
 
 .our-tab-nav ul li .nav-link.btn-highlighted:before{
-	background-color: var(--dark-color);
+	background-color: var(--main-color1);
 }
 
 .our-tab-nav ul li .nav-link.active{
-	background-color: var(--dark-color);
+	background-color: var(--main-color2);
 	color: var(--white-color);
 	border: none;
 }
 
 .expertise-content{
-	background-color: var(--white-color);
+	background-color: var(--primary-color);
 	border-radius: 30px;
-	padding: 40px;
+	padding: 34px;
 }
 
 .expertise-content-header{
@@ -1335,10 +1296,13 @@ header.main-header .header-sticky.active{
 	font-size: 20px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+	color: var(--white-color);
 }
 
 .expertise-content-header p{
 	margin: 0;
+	color: var(--white-color);
+	font-weight: 600;
 }
 
 .expertise-content-body{
@@ -1367,7 +1331,7 @@ header.main-header .header-sticky.active{
 }
 
 .expertise-list-content p{
-	color: var(--primary-color);
+	color: var(--white-color);
 	text-transform: capitalize;
 	margin: 0;
 }
@@ -1476,7 +1440,7 @@ header.main-header .header-sticky.active{
 }
 
 .why-choose-content h3{
-	font-size: 20px;
+	font-size: 18px;
 	text-transform: capitalize;
 	color: var(--white-color);
 	margin-bottom: 10px;
@@ -1485,6 +1449,7 @@ header.main-header .header-sticky.active{
 .why-choose-content p{
 	color: var(--white-color);
 	margin: 0;
+	font-size: 14px;
 }
 
 .why-choose-btn{
@@ -1661,6 +1626,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .company-wisdom{
+	background: var(--main-color2) url('../images/approach-bg-shape.svg');
 	padding: 100px 0;
 }
 
@@ -1689,10 +1655,10 @@ header.main-header .header-sticky.active{
 }
 
 .company-wisdom-box .company-wisdom-item{
-	display: flex;
+	/* display: flex;
 	flex-wrap: wrap;
-	align-content: space-between;
-	background: var(--accent-color);
+	align-content: space-between; */
+	background: var(--main-color1);
 	border-radius: 30px;
 	padding: 30px;
 }
@@ -1711,14 +1677,21 @@ header.main-header .header-sticky.active{
 
 .company-counter-title h3{
 	font-size: 20px;
+	color: var(--primary-color);
+}
+.company-counter-title p{
+	font-size: 13px;
+	margin-bottom: 0px;
+	color: var(--main-color2);
+	font-weight: 500;
 }
 
 .company-wisdom-counter{
 	width: 100%;
 }
 
-.company-wisdom-counter h2{
-	font-size: 56px;
+.company-wisdom-counter p{
+	font-size: 14px;
 }
 
 /************************************/
@@ -1737,7 +1710,16 @@ header.main-header .header-sticky.active{
 .features-content .section-title h3{
 	color: var(--accent-color);
 }
-
+.company-wisdom .section-title h3{
+	color: var(--white-color);
+	font-size: 20px;
+}
+.company-wisdom .section-title-content p{
+	color: var(--accent-color);
+}
+.company-wisdom .section-title h3::before{
+	background: url('../images/icon-sub-heading-accent.svg');
+}
 .features-content .section-title h3::before{
 	background: url('../images/icon-sub-heading-accent.svg');
 }
@@ -2316,12 +2298,12 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .main-footer.bg-section{
-	background: radial-gradient(39.27% 31.11% at 49.13% 41.46%, rgba(17, 74, 67, 0) 0.01%, #114A43 100%), url(../images/section-bg.svg);
+	background: radial-gradient(39.27% 31.11% at 49.13% 41.46%, rgba(17, 74, 67, 0) 0.01%, var(--main-color2) 100%), url(../images/section-bg.svg);
 	background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 	padding: 80px 0 0;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .footer-logo{
@@ -2429,7 +2411,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: radial-gradient(50.37% 27.86% at 49.08% 54.61%, rgba(17, 74, 67, 0) 0.01%, #114A43 100%), url('../images/section-bg.svg');
+	background: radial-gradient(50.37% 27.86% at 49.08% 54.61%, rgba(17, 74, 67, 0) 0.01%, var(--main-color2) 100%), url('../images/section-bg.svg');
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -4866,7 +4848,7 @@ header.main-header .header-sticky.active{
 .contact-information{
     display: flex;
     flex-wrap: wrap;
-    gap: 25px 140px;
+    gap: 70px 100px;
 }
 
 .contact-info-item{
@@ -6146,6 +6128,13 @@ header.main-header .header-sticky.active{
 	.error-page-content-body p{
 		margin-bottom: 20px;
 	}
+	.logo-img{
+		width: 120px !important;
+		padding: 10px;	
+	}
+	.navbar{
+		padding: 0px;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -6862,4 +6851,14 @@ header.main-header .header-sticky.active{
 	.error-page-content-heading h2{
         font-size: 28px;
 	}
+}
+.logo-img{
+	width: 110px;
+}
+@media only screen and (max-width:576px){
+	.logo-img{
+		width: 100px !important;
+		padding: 10px;	
+	}
+	
 }
