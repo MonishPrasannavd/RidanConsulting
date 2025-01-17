@@ -188,7 +188,7 @@
     position: relative;
     display: block;
     float: left;
-    max-width: 240px;
+    max-width: 100%;
 }
 
 .about-one-sec__content-points {

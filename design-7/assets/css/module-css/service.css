@@ -31,7 +31,8 @@
     right: 0;
     content: "";
     background-color: var(--tedlife-white);
-    height: 257px;
+    /* height: 257px; */
+    height: 227px;
     z-index: 1;
 }
 
@@ -67,7 +68,7 @@
     text-align: center;
     border-top-right-radius: var(--tedlife-bdr-radius);
     border-top-left-radius: var(--tedlife-bdr-radius);
-    padding: 60px 0 45px;
+    padding: 0px 0 0px;
     overflow: hidden;
 }
 
@@ -79,13 +80,17 @@
     bottom: 0;
     border-top-right-radius: var(--tedlife-bdr-radius);
     border-top-left-radius: var(--tedlife-bdr-radius);
-    background-color: var(--tedlife-black);
+    /* background-color: var(--tedlife-black); */
+    background-color: #FFF;
     transform: translateY(-103%);
     transition: all 500ms ease;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
+}
+.services-one-sec__img .services-one-sec__text{
+    padding: 40px 10px 20px 10px;
 }
 
 .services-one-sec__single:hover .services-one-sec__img {
@@ -95,7 +100,7 @@
 .services-one-sec__icon {
     position: relative;
     display: inline-block;
-    margin-bottom: 37px;
+    /* margin-bottom: 37px; */
 }
 
 .services-one-sec__icon span {
@@ -156,6 +161,7 @@
 
 .services-one-sec__text {
     margin: 0;
+
 }
 
 .services-one-sec__count {
@@ -1017,7 +1023,7 @@
 
 .service-details__img img {
     width: 100%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     border-radius: var(--tedlife-bdr-radius);
 }
 
@@ -1183,7 +1189,7 @@
 
 .service-details__benefits-img img {
     width: 100%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     border-radius: var(--tedlife-bdr-radius);
 }
 

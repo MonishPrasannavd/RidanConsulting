@@ -26,6 +26,12 @@
 
 .feature-one .section-title__title {
     color: var(--tedlife-white);
+    font-size: 20px;
+    line-height: 30px
+    
+}
+.feature-one .section-title__title .split-line{
+    text-transform: none !important;
 }
 
 .feature-one__single {
@@ -83,7 +89,7 @@
 }
 
 .feature-one__title {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 30px;
