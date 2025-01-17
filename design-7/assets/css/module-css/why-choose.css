@@ -134,13 +134,15 @@
 
 .why-choose-one-sec .tab-buttons {
     position: relative;
-    display: block;
+    display: flex;
     margin-bottom: 50px;
 }
 
 .why-choose-one-sec .tab-buttons .tab-btn {
     position: relative;
-    float: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
 }
 
 .why-choose-one-sec .tab-buttons .tab-btn:nth-child(1) span {
@@ -170,11 +172,15 @@
     z-index: 1;
     text-transform: uppercase;
     font-family: var(--tedlife-font-two);
+    width: 100%;
+    text-align: center;
 }
 
 .why-choose-one-sec .tab-buttons .tab-btn.active-btn span {
     color: var(--tedlife-base);
     border-radius: var(--tedlife-bdr-radius);
+    width: 100%;
+    text-align: center;
 }
 
 .why-choose-one-sec .tab-buttons .tab-btn span:before {
