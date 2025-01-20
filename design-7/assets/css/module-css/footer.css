@@ -4,7 +4,8 @@
 .site-footer {
     position: relative;
     display: block;
-    background-color: #121212;
+    /* background-color: #121212; */
+    background-color: var(--tedlife-black);
     overflow: hidden;
     z-index: 2;
 }
@@ -191,14 +192,14 @@
 
 .footer-widget__about-text {
     margin: 0;
-    color: #bababa;
+    color: #f1f1f1;
     padding-top: 49px;
     padding-bottom: 37px;
 }
 
 .footer-widget__about-address {
     margin: 0;
-    color: #bababa;
+    color: #f1f1f1;
 }
 
 .footer-widget__categories {
@@ -238,7 +239,7 @@
 }
 
 .footer-widget__categories-list li a {
-    color: #bababa;
+    color: #f1f1f1;
     position: relative;
     display: inline-block;
     -webkit-transition: all 500ms ease;
@@ -282,7 +283,7 @@
 }
 
 .footer-widget__community-list li a {
-    color: #bababa;
+    color: #f1f1f1;
     position: relative;
     display: inline-block;
     -webkit-transition: all 500ms ease;
@@ -327,13 +328,13 @@
 
 .footer-widget__business-hours-day {
     margin: 0;
-    color: #bababa;
+    color: #f1f1f1;
     line-height: 25px;
 }
 
 .footer-widget__business-time {
     margin: 0;
-    color: #bababa;
+    color: #f1f1f1;
 }
 .footer-widget__country{
     margin: 0;
@@ -343,7 +344,7 @@
 .footer-widget__business-number {
     position: relative;
     display: block;
-    color: #bababa;
+    color: #f1f1f1;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -355,7 +356,7 @@
 .footer-widget__business-mail {
     position: relative;
     display: block;
-    color: #bababa;
+    color: #f1f1f1;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -442,7 +443,7 @@
 
 .site-footer__copyright-text {
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -481,7 +482,7 @@
 .site-footer__bottom-menu li a {
     position: relative;
     display: inline-block;
-    color: #bababa;
+    color: #f1f1f1;
     font-family: var(--tedlife-font-two);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -566,7 +567,7 @@
 .footer-widget-two__about-text {
     margin-top: 25px;
     margin-bottom: 36px;
-    color: #bababa;
+    color: #f1f1f1;
 }
 
 .site-footer-two__social {
@@ -685,7 +686,7 @@
 }
 
 .footer-widget-two__link li a {
-    color: #bababa;
+    color: #f1f1f1;
     text-transform: capitalize;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -811,7 +812,7 @@
 }
 
 .site-footer-two__bottom-text {
-    color: #bababa;
+    color: #f1f1f1;
     font-family: var(--tedlife-font-two);
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -846,7 +847,7 @@
     bottom: 9px;
     left: -10px;
     width: 1px;
-    background-color: #bababa;
+    background-color: #f1f1f1;
 }
 
 .site-footer-two__bottom-menu li:first-child:before {
@@ -862,7 +863,7 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-family: var(--tedlife-font-two);
@@ -922,7 +923,7 @@
 
 .footer-widget-three__about-text {
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
 }
 
 .footer-widget-three__social-box {
@@ -1053,7 +1054,7 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
     padding-left: 15px;
     transition: all 500ms ease;
 }
@@ -1099,7 +1100,7 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
     padding-left: 15px;
     transition: all 500ms ease;
 }
@@ -1159,13 +1160,13 @@
 
 .footer-widget-three__Contact-list li .text p {
     font-size: 16px;
-    color: #bababa;
+    color: #f1f1f1;
 }
 
 .footer-widget-three__Contact-list li .text p a {
     position: relative;
     display: block;
-    color: #bababa;
+    color: #f1f1f1;
     transition: all 500ms ease;
 }
 

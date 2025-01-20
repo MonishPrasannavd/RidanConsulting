@@ -24,8 +24,9 @@
   --tedlife-gray-rgb: 97, 99, 104;
   --tedlife-base: #f8a515;
   --tedlife-base-rgb: 248, 165, 21;
-  /* --tedlife-black: #121212; */
-  --tedlife-black:#037CC2;
+  --tedlife-blue: #121212;
+  --tedlife-black:#037cc2;
+  --tedlife-rgb-black:3 ,124, 194;
   --tedlife-black-rgb: 18, 18, 18;
   --tedlife-primary: #f6f6f6;
   --tedlife-primary-rgb: 246, 246, 246;
@@ -2797,7 +2798,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .two-section__btn-1::before {
-  background-color: rgba(var(--tedlife-black-rgb), .80);
+  background-color: rgba(var(--tedlife-rgb-black), .70);
 }
 
 .two-section__btn-1 span::before {
@@ -2938,6 +2939,9 @@ body.megamenu-popup-active .mobile-nav__content {
   display: none;
 }
 
+.error{
+  color: red;
+}
 
 /*--------------------------------------------------------------
 # End

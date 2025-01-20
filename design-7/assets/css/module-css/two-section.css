@@ -30,8 +30,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    mix-blend-mode: luminosity;
-    opacity: .05;
+    /* mix-blend-mode: luminosity; */
+    opacity: .19;
     z-index: -1;
 }
 

@@ -6,6 +6,7 @@
     display: block;
     padding: 120px 0 385px;
     background-color: #0c0d0f;
+    /* background-color: var(--tedlife-black); */
     counter-reset: count;
     z-index: 1;
 }
@@ -19,8 +20,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: .30;
-    mix-blend-mode: luminosity;
+    opacity: .35;
+    /* mix-blend-mode: luminosity; */
     z-index: -1;
 }
 

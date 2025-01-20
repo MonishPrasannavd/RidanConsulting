@@ -91,7 +91,7 @@
 .about-one-sec__img>img {
     width: 100%;
     border-radius: var(--tedlife-bdr-radius);
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .about-one-sec__since {
@@ -995,7 +995,7 @@
 
 .about-four__img-box img {
     width: 100%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .about-four__video-link {

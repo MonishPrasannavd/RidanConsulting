@@ -49,7 +49,7 @@
 
 .news-one-sec__img img {
     width: 100%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
     border-radius: var(--tedlife-bdr-radius);
 }
 
@@ -135,7 +135,7 @@
 
 .news-one__meta li a {
     font-size: 16px;
-    color: var(--tedlife-black);
+    color: var(--tedlife-base);
     transition: all 500ms ease;
 }
 
@@ -166,7 +166,8 @@
 }
 
 .news-one-sec__text {
-    color: var(--tedlife-black);
+    /* color: var(--tedlife-black); */
+    color: var(--tedlife-blue);
     margin: 0;
     padding-bottom: 25px;
 }

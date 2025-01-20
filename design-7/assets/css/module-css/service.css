@@ -5,7 +5,8 @@
     position: relative;
     display: block;
     padding: 120px 0 90px;
-    background-color: #1c1d21;
+    /* background-color: #1c1d21; */
+    background-color: var(--tedlife-black);
     overflow: hidden;
     z-index: 1;
 }
@@ -801,7 +802,7 @@
     display: block;
     width: 40px;
     border-radius: 50%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .services-four__satisfied-img img {
@@ -914,7 +915,7 @@
     width: 100%;
     border-top-left-radius: var(--tedlife-bdr-radius);
     border-top-right-radius: var(--tedlife-bdr-radius);
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .services-five__content {

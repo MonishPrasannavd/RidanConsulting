@@ -135,6 +135,7 @@
     position: relative;
     display: block;
     background-color: #0c0d0f;
+    /* background-color: var(--tedlife-black); */
     padding: 120px 0 120px;
     overflow: hidden;
     z-index: 1;
@@ -149,8 +150,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    mix-blend-mode: luminosity;
-    opacity: .15;
+    /* mix-blend-mode: luminosity; */
+    opacity: .2;
     z-index: -1;
 }
 
@@ -163,7 +164,7 @@
 
 .contact-two__img img {
     width: auto;
-    filter: grayscale(1);
+    filter: grayscale(0.5);
     animation: topBottom 3s ease-in-out infinite;
 }
 
@@ -197,13 +198,13 @@
     height: 60px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--tedlife-white-rgb), .10);
+    border: 1px solid rgba(var(--tedlife-white-rgb),1);
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(var(--tedlife-white-rgb), .70);
+    color: rgba(var(--tedlife-white-rgb), 1);
     display: block;
     border-radius: var(--tedlife-bdr-radius);
 }
@@ -216,12 +217,12 @@
     height: 60px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--tedlife-white-rgb), .10);
+    border: 1px solid rgba(var(--tedlife-white-rgb), .60);
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
     font-size: 16px;
-    color: rgba(var(--tedlife-white-rgb), .70);
+    color: rgba(var(--tedlife-white-rgb), 1);
     font-weight: 400;
     border-radius: var(--tedlife-bdr-radius);
     line-height: 60px;
@@ -263,12 +264,12 @@
     height: 175px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--tedlife-white-rgb), .10);
+    border: 1px solid rgba(var(--tedlife-white-rgb), .6);
     padding: 15px 20px 30px;
     outline: none;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(var(--tedlife-white-rgb), .70);
+    color: rgba(var(--tedlife-white-rgb), 1);
     position: relative;
     display: block;
     border-radius: var(--tedlife-bdr-radius);
@@ -329,7 +330,7 @@
     bottom: 0;
     content: "";
     border-radius: 50%;
-    background-color: var(--tedlife-black);
+    background-color: var(--tedlife-base);
     transform: scale(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -345,7 +346,7 @@
     position: relative;
     display: inline-block;
     font-size: 32px;
-    color: var(--tedlife-black);
+    color: var(--tedlife-base);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -368,6 +369,7 @@
     line-height: 30px;
     color: var(--tedlife-black);
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .contact-info__single h3 a {
@@ -521,7 +523,7 @@
     border: none;
     height: 555px;
     width: 100%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
 }
 
 /*--------------------------------------------------------------

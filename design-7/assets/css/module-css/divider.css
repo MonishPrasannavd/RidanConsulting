@@ -14,7 +14,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--tedlife-black);
+    /* background-color: var(--tedlife-black); */
+    background-color: #1c1d21;
     z-index: 1;
 }
 
@@ -28,8 +29,8 @@
     background-size: cover;
     background-position: center;
     z-index: 1;
-    mix-blend-mode: luminosity;
-    opacity: 0.20;
+    /* mix-blend-mode: luminosity; */
+    opacity: 0.3;
 }
 
 .divider-one-sec__left {
