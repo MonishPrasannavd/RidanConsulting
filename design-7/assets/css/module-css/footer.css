@@ -234,7 +234,7 @@
 }
 
 .footer-widget__categories-list li+li {
-    margin-top: 19px;
+    margin-top: 5px;
 }
 
 .footer-widget__categories-list li a {
@@ -278,7 +278,7 @@
 }
 
 .footer-widget__community-list li+li {
-    margin-top: 19px;
+    margin-top: 5px;
 }
 
 .footer-widget__community-list li a {
@@ -334,6 +334,10 @@
 .footer-widget__business-time {
     margin: 0;
     color: #bababa;
+}
+.footer-widget__country{
+    margin: 0;
+    color: var(--tedlife-base);
 }
 
 .footer-widget__business-number {
