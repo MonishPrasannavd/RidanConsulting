@@ -125,7 +125,7 @@
 
 .portfolio-one-sec__img img {
     width: 100%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
     border-radius: var(--tedlife-bdr-radius);
 }
 
@@ -137,7 +137,7 @@
     text-align: center;
     background-color: var(--tedlife-black);
     border-radius: var(--tedlife-bdr-radius);
-    padding: 27px 45px 23px;
+    padding: 27px 10px 23px;
     background-position: center bottom;
     transition-delay: .1s;
     transition-timing-function: ease-in-out;

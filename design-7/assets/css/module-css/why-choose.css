@@ -314,7 +314,7 @@
 
 .tabs-content__inner-img img {
     width: 100%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
     border-radius: var(--tedlife-bdr-radius);
 }
 

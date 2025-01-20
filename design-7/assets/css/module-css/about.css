@@ -63,7 +63,7 @@
     display: block;
     border-radius: var(--tedlife-bdr-radius);
     overflow: hidden;
-    background-color: var(--tedlife-black);
+    /* background-color: var(--tedlife-black); */
     z-index: 1;
 }
 
@@ -145,7 +145,6 @@
 
 .about-one-sec__small-img>img {
     border-radius: var(--tedlife-bdr-radius);
-    mix-blend-mode: luminosity;
 }
 
 .about-one__shape-1 {

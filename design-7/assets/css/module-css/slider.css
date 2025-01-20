@@ -9,7 +9,7 @@
 
 .main-slider .item {
     position: relative;
-    padding-top: 348px;
+    padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--tedlife-black);
     z-index: 10;
@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    mix-blend-mode: luminosity;
+    
     overflow: hidden;
     transform: scale(1);
     transition: transform 10000ms ease, -webkit-transform 10000ms ease;
@@ -42,8 +42,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #000000;
-    opacity: 0.6;
+    background-color: rgba(1, 26, 41, 0.7);
     z-index: -1;
 }
 
@@ -219,10 +218,10 @@
 .main-slider__title {
     position: relative;
     display: block;
-    font-size: 120px;
+    font-size: 90px;
     color: var(--tedlife-white);
     font-weight: 600;
-    line-height: 120px;
+    line-height: 100px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-top: 32px;
