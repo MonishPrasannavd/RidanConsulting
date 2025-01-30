@@ -36,6 +36,7 @@
     transform: rotate(45deg);
     border-radius: 20px;
     animation: shapeTopBottom 9s linear 0ms infinite;
+    mix-blend-mode: color;
 }
 
 .page-header-shape-2 {
