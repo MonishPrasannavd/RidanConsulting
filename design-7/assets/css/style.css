@@ -27,7 +27,7 @@
   --tedlife-blue: #121212;
   --tedlife-black:#037cc2;
   --tedlife-rgb-black:3 ,124, 194;
-  --tedlife-black-rgb: 18, 18, 18;
+  --tedlife-black-rgb: 18, 18, 110;
   --tedlife-primary: #f6f6f6;
   --tedlife-primary-rgb: 246, 246, 246;
   --tedlife-white: #ffffff;
@@ -84,6 +84,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  overflow-x:hidden ;
 }
 
 body.locked {

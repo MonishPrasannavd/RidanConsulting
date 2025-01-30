@@ -480,11 +480,11 @@
 
 .about-two__points-and-vission-mission {
     position: relative;
-    display: flex;
+    /* display: flex;
     align-items: flex-start;
     gap: 70px;
     margin-right: -30px;
-    margin-top: 30px;
+    margin-top: 30px; */
 }
 
 .about-two__points-box {
@@ -535,8 +535,13 @@
 .about-two__vission-mission {
     position: relative;
     display: block;
-    max-width: 310px;
+    /* max-width: 310px; */
     width: 100%;
+    border: 1px solid rgba(var(--tedlife-black-rgb), .10);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ece8e8;
 }
 
 .about-two__vission-mission::before {
@@ -589,7 +594,7 @@
 }
 
 .about-two__tab-box .tab-buttons .tab-btn.active-btn span {
-    color: var(--tedlife-black);
+    color: var(--tedlife-primary);
 }
 
 .about-two__tab-box .tab-buttons .tab-btn span:before {
@@ -600,6 +605,9 @@
     bottom: 0;
     content: "";
     background-color: rgba(var(--tedlife-black-rgb), .10);
+    /* background-color: rgba(var(--tedlife-base-rgb), .90); */
+    background-color: rgba(3, 124, 194, 1);
+
     background-position: top bottom;
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
