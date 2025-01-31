@@ -2954,3 +2954,17 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 6px 25px;
   margin-top: 3px;
 }
+.modal-header{
+  padding: 0.5rem !important;
+  background-color: var(--tedlife-base);
+}
+.modal-header .modal-title{
+  color: #FFF !important;
+}
+.close-btn .bi::before, [class*=" bi-"]::before, [class^=bi-]::before{
+  color:var(--tedlife-black);
+  font-size: 23px;
+}
+.modal-body{
+  color: var(--tedlife-base);
+}
