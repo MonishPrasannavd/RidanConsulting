@@ -2947,3 +2947,10 @@ body.megamenu-popup-active .mobile-nav__content {
 /*--------------------------------------------------------------
 # End
 --------------------------------------------------------------*/
+
+.btn-white{
+  background-color: #fff;
+  font-size: 13px;
+  padding: 6px 25px;
+  margin-top: 3px;
+}
