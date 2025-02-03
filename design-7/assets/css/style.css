@@ -2961,7 +2961,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .modal-header .modal-title{
   color: #FFF !important;
 }
-.close-btn .bi::before, [class*=" bi-"]::before, [class^=bi-]::before{
+.close-btn{
   color:var(--tedlife-black);
   font-size: 23px;
 }
